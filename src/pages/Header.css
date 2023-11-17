@@ -1,0 +1,33 @@
+header {
+    text-align: center;
+    margin: 10px;
+    background-color: grey;
+    
+  }
+  
+  input {
+    padding: 8px;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 500px;
+  }
+  
+  button {
+    padding: 8px 16px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+
+  .imagem img{
+    height: 700px;
+    width: 100%;
+  }
+
+  .search-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .search-icon {
+    margin-right: 8px;
+  }
