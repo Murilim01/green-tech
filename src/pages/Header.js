@@ -8,12 +8,11 @@ const Header = () => {
         <header>
             <form>
 
-                <input type="text" placeholder="Digite sua pesquisa" />
-
-
-
-                <button type="submit"><FaSearch className="search-icon" /> Pesquisar</button>
-
+                <div>
+                    <input type="text" placeholder="" className="search-input" />
+                    <FaSearch className="search-icon" />
+                    <button type="submit">Pesquisar</button>
+                </div>
             </form>
             <div className='imagem'>
                 <img src={Headering}></img>
@@ -21,5 +20,5 @@ const Header = () => {
         </header>
     );
 };
-    
+
 export default Header;
